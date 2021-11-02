@@ -29,11 +29,11 @@
         <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
         <p class="welcome-header__text">If you have a Kokoa Account, log in with your email or phone number.</p>
     </header>
-    <form id="login-form">
-        <input type="text" placeholder="Email or Phone number" />
-        <input type="password" placeholder="password" />
-        <input type="submit" value="Log In" />
-        <a href="#">Find Kokoa Account or Password</a>
+    <form action="friends.html" method="get" class="login-form">
+        <input name="username" class="login-form__input" type="text" required placeholder="Email or Phone number" />
+        <input name="password" class="login-form__input" type="password" required placeholder="password" />
+        <input class="login-form__input__btn" type="submit" value="Log In" />
+        <a class="login-form__a" href="http://www.google.co.kr">Find Kokoa Account or Password</a>
     </form>
     <script src="https://kit.fontawesome.com/6787ce3e7f.js" crossorigin="anonymous"></script>
 
