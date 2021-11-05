@@ -16,7 +16,7 @@
 
 .welcome-header__text {
     width: 60%;
-    opacity: 0.7;
+    color: var(--gray-font);
 }
 
 .login-form {
@@ -37,7 +37,7 @@
 }
 
 .login-form__input::placeholder {
-    color: rgba(0, 0, 0, 0.4);
+    color: var(--gray-font);
 }
 
 .login-form__input:focus {

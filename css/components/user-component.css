@@ -3,13 +3,13 @@
     align-items: center;
     justify-content: space-between;
     position: relative;
-    top: 112px;
+    top: 0px;
     z-index: -1;
     margin-bottom: 10px;
 }
 
 .user-component:first-child {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 .user-component:last-child {
     position: relative;
@@ -23,7 +23,10 @@
 }
 
 .user-component__column:last-child {
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .user-component__avatar {
@@ -34,14 +37,13 @@
 }
 
 .user-component__title {
-    font-weight: 600;
     font-size: 22px;
 }
 
 .user-component__subtitle {
     margin-top: 8px;
     font-size: 17px;
-    color: rgba(0, 0, 0, 0.5);
+    color: var(--gray-font);
 }
 
 .user-component__avatar__xl {
@@ -58,4 +60,9 @@
 
 .user-component__title--not-bold {
     font-weight: 400;
+}
+
+.user-component__time {
+    margin-bottom: 10px;
+    display: block;
 }
