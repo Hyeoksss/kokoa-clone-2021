@@ -9,19 +9,27 @@
 @import "components/user-component.css";
 @import "components/badge.css";
 @import "components/tomato-dot.css";
+@import "components/icon-raw.css";
+@import "components/alt-header.css";
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
 @import "screens/find.css";
 @import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
 
 body {
     font-family: "Open Sans", sans-serif;
-    height: 500vh;
     color: #2e363e;
+    height: 500vh;
     font-weight: 600;
 }
 
+.status-bar,
+.screen-header {
+    z-index: 1;
+}
 .main-screen {
     padding: 0px var(--horizontal-space);
 }
