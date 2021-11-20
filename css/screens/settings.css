@@ -30,3 +30,9 @@
 .settings__setting-column :nth-child(2) {
     margin-right: 10px;
 }
+
+.settings-list {
+    z-index: -1;
+    position: relative;
+    top: 110px;
+}

@@ -1,8 +1,11 @@
 .icon-raw {
+    position: relative;
+    top: 120px;
     display: flex;
     justify-content: space-between;
     width: 100%;
-    margin-top: 5px;
+    margin-top: 10px;
+    z-index: -1;
 }
 
 .icon-raw__icon {
@@ -20,4 +23,5 @@
 
 .icon-raw__icon span {
     margin-top: 18px;
+    text-align: center;
 }

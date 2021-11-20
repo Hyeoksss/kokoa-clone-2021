@@ -11,6 +11,8 @@
 @import "components/tomato-dot.css";
 @import "components/icon-raw.css";
 @import "components/alt-header.css";
+@import "components/no-mobile.css";
+@import "components/no-landscape.css";
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
@@ -18,6 +20,7 @@
 @import "screens/more.css";
 @import "screens/settings.css";
 @import "screens/chat.css";
+@import "screens/chats.css";
 
 body {
     font-family: "Open Sans", sans-serif;
@@ -26,10 +29,6 @@ body {
     font-weight: 600;
 }
 
-.status-bar,
-.screen-header {
-    z-index: 1;
-}
 .main-screen {
     padding: 0px var(--horizontal-space);
 }

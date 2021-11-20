@@ -4,27 +4,40 @@
 }
 
 .more-screen .icon-raw {
-    margin-top: 20px;
+    position: relative;
+    top: 120px;
+    margin-top: 30px;
 }
 
 .user-component__column-more i {
     color: rgba(0, 0, 0, 0.7);
 }
 
+.user-component__more {
+    position: relative;
+    top: 120px;
+    margin-bottom: 50px;
+}
+
 .more-suggestions {
+    position: relative;
+    top: 120px;
     border-top: var(--part-border);
     margin-top: 20px;
-    padding-top: 50px;
+    padding-top: 40px;
+    z-index: -1;
 }
 
 .more-suggestions__title {
     font-size: 22px;
-    margin-bottom: 30px;
+    z-index: -1;
+    margin-bottom: 40px;
 }
 
 .more-suggestions__icons {
     display: flex;
-    justify-content: left;
+    justify-content: flex-start;
+    z-index: -1;
 }
 
 .more-suggestions__icon {
@@ -32,6 +45,7 @@
     flex-direction: column;
     align-items: center;
     width: 25%;
+    z-index: -1;
 }
 
 .more-suggestions__icon-image {
@@ -43,6 +57,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: -1;
 }
 
 .more-suggestions__icon-image i {
@@ -56,6 +71,6 @@
 
 .tomato-dot__more-talkdrive {
     position: absolute;
-    right: 65px;
+    right: 45px;
     top: -5px;
 }

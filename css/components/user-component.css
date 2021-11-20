@@ -4,16 +4,8 @@
     justify-content: space-between;
     position: relative;
     top: 0px;
-    z-index: -1;
-    margin-bottom: 20px;
-}
-
-.user-component:first-child {
-    margin-top: 20px;
-}
-.user-component:last-child {
-    position: relative;
-    top: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     z-index: -1;
 }
 
@@ -57,10 +49,22 @@
     border-radius: 30px;
 }
 
+.user-component__avatar__2xl {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
 .user-component__avatar__sm {
     width: 60px;
     height: 60px;
     border-radius: 25px;
+}
+
+.user-component__avatar__xs {
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
 }
 
 .user-component__title--not-bold {
