@@ -1,12 +1,12 @@
 .welcome-header {
     padding-top: 50px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     text-align: center;
+    position: sticky;
+    top: 90px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: fixed;
-    top: 90px;
 }
 
 .welcome-header__title {
@@ -24,7 +24,7 @@
     flex-direction: column;
     margin: 0 30px;
     position: sticky;
-    top: 350px;
+    top: 300px;
 }
 
 .login-form__input {
