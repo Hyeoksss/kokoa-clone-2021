@@ -8,7 +8,7 @@
     box-sizing: border-box;
     top: 40px;
     background-color: white;
-    z-index: 1;
+    z-index: 2;
 }
 .screen-header__title {
     font-size: 32px;
@@ -23,10 +23,6 @@
     position: relative;
 }
 
-.screen-header__icons-icon {
-    position: relative;
-}
-
 @keyframes rotateCog {
     form {
         transform: none;
@@ -37,5 +33,28 @@
 }
 
 .screen-header__icons .fa-cog:hover {
+    will-change: transform;
     animation: rotateCog 1s linear infinite;
+}
+
+@keyframes iconBoom {
+    0% {
+        transform: none;
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: none;
+    }
+}
+
+.screen-header .fa-times:hover,
+.screen-header__icons .fa-gift:hover,
+.screen-header__icons .fa-qrcode:hover,
+.screen-header__icons .fa-search:hover,
+.screen-header__icons .fa-music:hover,
+.screen-header__icons .fa-comment-medical:hover {
+    will-change: transform;
+    animation: iconBoom 1s linear infinite;
 }

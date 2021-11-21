@@ -1,10 +1,13 @@
 .settings__setting {
-    padding: 40px 0;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    font-size: 27px;
+    padding: 35px 10px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-radius: 20px;
+    height: 15px;
 }
 
 .settings__setting i {
@@ -23,16 +26,26 @@
     opacity: 0.7;
 }
 
-.settings-list :nth-child(3) {
-    border-bottom: 1.5px solid rgba(0, 0, 0, 0.3);
-}
-
 .settings__setting-column :nth-child(2) {
     margin-right: 10px;
 }
 
 .settings-list {
-    z-index: -1;
     position: relative;
-    top: 110px;
+    top: 120px;
+    z-index: 1;
+}
+
+.settings__setting:hover {
+    background-color: var(--hover);
+}
+
+.settings__setting i {
+    transition: all 0.5s linear;
+    transition-delay: 0.1s;
+}
+
+.settings__setting:hover i {
+    color: hotpink;
+    font-size: 30px;
 }

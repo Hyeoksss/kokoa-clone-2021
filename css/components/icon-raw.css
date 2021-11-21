@@ -1,27 +1,16 @@
 .icon-raw {
     position: relative;
-    top: 120px;
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin-top: 10px;
-    z-index: -1;
 }
 
 .icon-raw__icon {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     width: 25%;
-    margin-bottom: 30px;
-    position: relative;
-}
-
-.icon-raw__icon i {
-    font-size: 35px;
 }
 
 .icon-raw__icon span {
-    margin-top: 18px;
     text-align: center;
+}
+
+.icon-raw__icon:hover .icon-raw__icon-background {
+    background-color: var(--yellow);
 }

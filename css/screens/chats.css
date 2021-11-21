@@ -1,14 +1,7 @@
-.status-bar__chats {
-    position: fixed;
-    top: 0px;
-}
-
-.screen-header__chats {
-    position: fixed;
-    top: 40px;
-}
-
 .user-component__chats {
     margin-top: 140px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
+}
+#chats-screen {
+    height: 120vh;
 }

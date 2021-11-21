@@ -20,13 +20,21 @@
 @import "screens/more.css";
 @import "screens/settings.css";
 @import "screens/chat.css";
+@import "screens/chat-nico.css";
+@import "screens/chat-alien.css";
 @import "screens/chats.css";
+@import "screens/profile.css";
 
 body {
     font-family: "Open Sans", sans-serif;
     color: #2e363e;
-    height: 500vh;
+    height: 130vh;
     font-weight: 600;
+    overflow: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 .main-screen {

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat w/ Alien - Kokoa Clone</title>
+</head>
+
+<body id="chat-screen">
+    <div class="status-bar status-bar__chat">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fas fa-battery-full fa-2x"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="alt-header alt-header__chat">
+        <div class="alt-header__column">
+            <a href="javascript:history.back();">
+                <i class="fas fa-angle-left"></i>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Alien</h1>
+        </div>
+        <div class="alt-header__column">
+            <span><i class="far fa-search"></i></span>
+            <span><i class="far fa-bars"></i></span>
+        </div>
+    </header>
+
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Tuesday, December 13, 2021
+        </div>
+        <div class="message-row message-1st">
+            <a href="alien-profile.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzL1vKl9O05Xa09_TlUjlHDXcjqfG3EYcSVQ&usqp=CAU" /></a>
+            <div class="message-row__content">
+                <span class="message__autho">Alien</span>
+                <div class="message__info">
+                    <span class="message__bubble"><i class="far fa-space-shuttle"></i><i class="far fa-planet-ringed"></i><i class="far fa-pizza-slice"></i></span>
+                    <span class="message__time">22:55</span>
+                    <i class="fas fa-reply"></i>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-2nd">
+            <a href="alien-profile.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzL1vKl9O05Xa09_TlUjlHDXcjqfG3EYcSVQ&usqp=CAU" /></a>
+            <div class="message-row__content">
+                <span class="message__autho">Alien</span>
+                <div class="message__info">
+                    <span class="message__bubble"><i class="far fa-handshake"></i></span>
+                    <span class="message__time">22:55</span>
+                    <i class="fas fa-reply"></i>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row__own message-3rd">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">Oh! You are from Pizza Planet!!</span>
+                    <span class="message__time">23:27</span>
+                    <i class="fa fa-times-circle"></i>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row__own message-4th">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">I'm happy to meet you!!</span>
+                    <span class="message__time">23:27</span>
+                    <i class="fa fa-times-circle"></i>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-5th">
+            <a href="alien-profile.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzL1vKl9O05Xa09_TlUjlHDXcjqfG3EYcSVQ&usqp=CAU" /></a>
+            <div class="message-row__content">
+                <span class="message__author">Alien</span>
+                <div class="message__info">
+                    <span class="message__bubble"><i class="fa-regular fa-arrow-up-left-from-circle"></i><i class="fa-solid fa-arrow-down-z-a"></i><i class="fa-solid fa-bullseye"></i></span>
+                    <span class="message__time">23:59</span>
+                    <i class="fas fa-reply"></i>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row__own message-6th">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">????</span>
+                    <span class="message__time">00:27</span>
+                    <i class="fa fa-times-circle"></i>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <form class="reply">
+        <div class="reply__column">
+            <i class="far fa-plus-square fa-lg"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message..." />
+            <i class="far fa-smile-wink fa-lg"></i>
+            <button>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
+    <div id="no-mobile">
+        <span>Your screen is too big</span>
+    </div>
+    <script src="https://kit.fontawesome.com/6787ce3e7f.js" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>

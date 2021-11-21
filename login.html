@@ -20,7 +20,7 @@
             <span>18:43</span>
         </div>
         <div class="status-bar__column">
-            <span>110%</span>
+            <span>100%</span>
             <i class="fas fa-battery-full fa-2x"></i>
             <i class="fas fa-bolt"></i>
         </div>
@@ -30,8 +30,8 @@
         <p class="welcome-header__text">If you have a Kokoa Account, log in with your email or phone number.</p>
     </header>
     <form action="friends.html" method="get" class="login-form">
-        <input name="username" class="login-form__input" type="text" required placeholder="Email or Phone number" />
-        <input name="password" class="login-form__input" type="password" required placeholder="password" />
+        <input name="username" class="login-form__input" type="email" required placeholder="Email or Phone number" />
+        <input name="password" class="login-form__input" type="password" required placeholder="password" minlength="10" />
         <input class="login-form__input__btn" type="submit" value="Log In" />
         <a class="login-form__a" href="http://www.google.co.kr">Find Kokoa Account or Password</a>
     </form>

@@ -1,15 +1,17 @@
-/*find icons */
-
+.icon-raw__find {
+    position: relative;
+    top: 130px;
+}
 /* recommended friends */
 .recommended-friends {
     position: relative;
-    top: 110px;
-    margin: 25px 0;
-    padding: 25px 0;
+    top: 150px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 15px 0;
     border-top: var(--part-border);
     border-bottom: var(--part-border);
-    height: 400px;
-    z-index: -1;
+    height: 300px;
 }
 
 .recommended-friends__title {
@@ -17,43 +19,45 @@
     color: var(--gray-font);
 }
 
-.recommended-friends span {
-    display: block;
-    margin: 180px 0;
-    text-align: center;
-    font-size: 18px;
-    color: var(--gray-font);
+.add-friend i {
+    margin-right: 10px;
+}
+
+.user-component__recommend img {
+    width: 55px;
+    height: 55px;
+    border-radius: 15px;
+}
+
+.user-component__recommend:hover i {
+    color: hotpink;
 }
 /*open chat header */
 .open-chat {
     display: flex;
     flex-direction: column;
     position: relative;
-    top: 0px;
+    top: 50px;
 }
-
 .open-chat__header {
     position: relative;
-    top: 120px;
+    top: 80px;
     display: flex;
     font-size: 18px;
     justify-content: space-between;
     margin-bottom: 25px;
+    margin-top: 25px;
 }
-
 .open-chat__header i {
     margin-left: 5px;
 }
-
 .open-chat__header h4 {
     opacity: 0.7;
 }
-
 #open-chat__home {
     opacity: 0.7;
 }
 /*open chat post*/
-
 .open-post {
     display: flex;
     justify-content: space-between;
@@ -63,7 +67,7 @@
     border-bottom: var(--part-border);
     font-size: 20px;
     position: relative;
-    top: 120px;
+    top: 80px;
 }
 
 .open-post__title {
@@ -81,32 +85,26 @@
     align-items: center;
     margin-top: 7px;
 }
-
 .open-post__members img {
     width: 25px;
     height: 25px;
     border-radius: 50%;
     margin-right: 7px;
 }
-
 .open-post__member-count {
     opacity: 0.7;
     font-size: 20px;
 }
-
 .open-post__members .divider {
     width: 2px;
     height: 15px;
     background-color: rgba(0, 0, 0, 0.3);
     margin: 0 7px;
 }
-
 .open-post__member-status {
     color: hotpink;
 }
-
 /* second open post column */
-
 .open-post__photo {
     position: relative;
 }
