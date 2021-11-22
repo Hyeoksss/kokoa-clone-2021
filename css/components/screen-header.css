@@ -54,7 +54,7 @@
 .screen-header__icons .fa-qrcode:hover,
 .screen-header__icons .fa-search:hover,
 .screen-header__icons .fa-music:hover,
-.screen-header__icons .fa-comment-plus:hover {
+.screen-header__icons .fa-comments:hover {
     will-change: transform;
     animation: iconBoom 1s linear infinite;
 }
