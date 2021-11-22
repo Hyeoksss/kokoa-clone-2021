@@ -1,6 +1,7 @@
 .icon-raw {
     position: relative;
     display: flex;
+    margin-top: 20px;
 }
 
 .icon-raw__icon {
@@ -12,5 +13,9 @@
 }
 
 .icon-raw__icon:hover .icon-raw__icon-background {
-    background-color: var(--yellow);
+    background-color: var(--main-color);
+}
+
+.icon-raw__icon .icon-raw__icon-background {
+    background-color: #e4e6e4;
 }

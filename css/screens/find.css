@@ -1,3 +1,7 @@
+#find-body {
+    height: 140vh;
+}
+
 .icon-raw__find {
     position: relative;
     top: 130px;
@@ -30,7 +34,7 @@
 }
 
 .user-component__recommend:hover i {
-    color: hotpink;
+    color: var(--green-tea);
 }
 /*open chat header */
 .open-chat {

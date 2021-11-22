@@ -1,10 +1,14 @@
+#more-body {
+    height: 140vh;
+}
+
 .user-component__column-more i {
     color: rgba(0, 0, 0, 0.7);
 }
 
 .user-component__more {
     position: relative;
-    top: 110px;
+    top: 120px;
     margin-bottom: 40px;
 }
 
@@ -137,7 +141,7 @@
 }
 
 .more-suggestions__icon-image:hover {
-    background-color: var(--yellow);
+    background-color: var(--main-color);
 }
 
 .more-suggestions__icon-image i {

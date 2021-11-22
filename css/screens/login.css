@@ -28,12 +28,13 @@
 }
 
 .login-form__input {
-    padding: 15px 0;
+    padding: 15px 10px;
     border: none;
     font-size: 18px;
     margin-bottom: 25px;
     border-bottom: 1.5px solid rgba(0, 0, 0, 0.2);
     transition: border-color 0.3s ease-in-out;
+    border-radius: 20px;
 }
 
 .login-form__input::placeholder {
@@ -41,11 +42,11 @@
 }
 
 .login-form__input:focus {
-    border-color: var(--yellow);
+    border-color: var(--main-color);
 }
 
 .login-form__input__btn {
-    background-color: var(--yellow);
+    background-color: var(--main-color);
     cursor: pointer;
     padding: 20px 0;
     border-radius: 10px;

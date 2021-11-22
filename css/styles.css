@@ -27,10 +27,11 @@
 
 body {
     font-family: "Open Sans", sans-serif;
-    color: #2e363e;
-    height: 130vh;
+    color: rgba(0, 0, 0, 0.8);
+    height: 100vh;
     font-weight: 600;
     overflow: none;
+    background-color: var(--back-color);
 }
 
 body::-webkit-scrollbar {

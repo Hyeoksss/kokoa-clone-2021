@@ -10,7 +10,7 @@
 }
 
 .user-component:hover {
-    background-color: rgb(233, 230, 230);
+    background-color: var(--main-color);
     border-radius: 20px;
 }
 
@@ -85,7 +85,7 @@
 
 .profile-music:hover i {
     animation: iconBoom 1s linear infinite;
-    color: hotpink;
+    color: var(--green-tea);
 }
 
 .user-component__column-channel {
@@ -95,5 +95,5 @@
 
 .user-component__column-channel:hover {
     font-size: 30px;
-    color: hotpink;
+    color: var(--green-tea);
 }

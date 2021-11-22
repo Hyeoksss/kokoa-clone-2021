@@ -1,3 +1,7 @@
+#settings-body {
+    height: 150vh;
+}
+
 .settings__setting {
     padding: 35px 10px;
     border-bottom: 3px solid rgba(0, 0, 0, 0.1);
@@ -37,7 +41,7 @@
 }
 
 .settings__setting:hover {
-    background-color: var(--hover);
+    background-color: var(--main-color);
 }
 
 .settings__setting i {
@@ -46,6 +50,5 @@
 }
 
 .settings__setting:hover i {
-    color: hotpink;
     font-size: 30px;
 }
