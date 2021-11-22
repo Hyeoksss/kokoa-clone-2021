@@ -172,7 +172,7 @@
     bottom: 0;
     width: 100%;
     box-sizing: border-box;
-    background-color: var(--main-color);
+    background-color: #c29c64;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -202,8 +202,8 @@
 
 .reply__column:last-child button {
     position: absolute;
-    right: -2px;
-    top: 4px;
+    right: 0px;
+    top: 3px;
 }
 .reply__column:last-child > i {
     position: absolute;
